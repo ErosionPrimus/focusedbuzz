@@ -1,0 +1,14 @@
+name = "midnight-walk"
+main = "."
+base_dir = "."
+
+[build]
+command = "npm run build"
+publish_dir = "dist"
+
+[[routes]]
+pattern = "/*"
+local_path = "index.html"
+
+[env.production]
+name = "midnight-walk"

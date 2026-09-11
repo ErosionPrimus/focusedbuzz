@@ -1,0 +1,22 @@
+{
+  "name": "midnight-walk",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Immersive night walk WebGL experience — scroll-driven Three.js cinematic journey",
+  "scripts": {
+    "dev": "npx serve . -l 3000 -c mime.types",
+    "build": "npm run optimize",
+    "optimize": "shx mkdir -p dist && cp index.html dist/ && shx cp -r css js scenes assets foreground dist/ && node scripts/optimize.js",
+    "start": "npx serve . -l 8080",
+    "deploy": "npm run build && npx serve dist -l 8080",
+    "audit": "node scripts/audit.js"
+  },
+  "devDependencies": {
+    "serve": "^14.2.0",
+    "shx": "^0.3.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

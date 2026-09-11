@@ -1,0 +1,180 @@
+/* Midnight Walk — Custom font stack
+   Primary: Onest (geist-inspired, geometric sans)
+   Fallback: system-ui
+   Japanese: Noto JP
+*/
+
+@font-face {
+  font-family: 'Onest';
+  src: url('https://fonts.googleapis.com/css2?family=Onest:wght@300;400;500;600&display=swap') format('css');
+  font-weight: 300 600;
+  font-display: swap;
+}
+
+/* Local fallback — system fonts match Onest's geometric feel */
+body {
+  font-family: 'Onest', 'Inter', 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+}
+
+.jp {
+  font-family: 'Noto JP', 'Onest', 'Inter', sans-serif;
+}
+
+/* Display overrides for large type */
+.display {
+  font-family: 'Onest', system-ui, sans-serif;
+  letter-spacing: -0.012em;
+}
+
+/* Japanese display type */
+.jp-display {
+  font-family: 'Noto JP', 'Onest', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+}
+
+/* Nav brand */
+.brand-tx b {
+  font-family: 'Onest', system-ui, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.26em;
+}
+
+/* Chip labels */
+.chip b {
+  font-family: 'Onest', system-ui, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+}
+
+/* Stats numbers */
+.num {
+  font-family: 'Onest', system-ui, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.02em;
+}
+
+/* Footer labels */
+.foot h4 {
+  font-family: 'Onest', system-ui, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+}
+
+/* CTA */
+.cta {
+  font-family: 'Onest', system-ui, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+}
+
+/* Hero eyebrow */
+.eyebrow {
+  font-family: 'Onest', system-ui, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+}
+
+/* Section kicker */
+.sec-head .k {
+  font-family: 'Onest', system-ui, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.24em;
+}
+
+/* Card labels */
+.card-lab b {
+  font-family: 'Onest', system-ui, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+/* Lesson meta */
+.les .k {
+  font-family: 'Onest', system-ui, sans-serif;
+  letter-spacing: 0.16em;
+}
+
+/* Lesson time */
+.les .t {
+  font-family: 'Onest', system-ui, sans-serif;
+  letter-spacing: 0.14em;
+}
+
+/* Card meta */
+.card-meta {
+  font-family: 'Onest', system-ui, sans-serif;
+  letter-spacing: 0.16em;
+}
+
+/* Nav link */
+.nav-link {
+  font-family: 'Onest', system-ui, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+}
+
+/* Brand tagline */
+.brand-tx i {
+  font-family: 'Onest', system-ui, sans-serif;
+  letter-spacing: 0.34em;
+}
+
+/* Preloader Japanese */
+.pre-jp {
+  font-family: 'Noto JP', 'Onest', sans-serif;
+  letter-spacing: 0.5em;
+}
+
+/* Footer base */
+.foot-base {
+  font-family: 'Onest', system-ui, sans-serif;
+  letter-spacing: 0.16em;
+}
+
+/* Hero vertical Japanese */
+.hero-side .v {
+  font-family: 'Noto JP', 'Onest', sans-serif;
+  letter-spacing: 0.62em;
+}
+
+/* Peek caption */
+.peek-cap b.jp {
+  font-family: 'Noto JP', 'Onest', sans-serif;
+  letter-spacing: 0.18em;
+}
+
+/* Peek caption roman */
+.peek-cap i {
+  font-family: 'Onest', system-ui, sans-serif;
+  letter-spacing: 0.2em;
+}
+
+/* Chip roman */
+.chip b {
+  font-family: 'Onest', system-ui, sans-serif;
+}
+
+/* Chip paragraph */
+.chip p {
+  font-family: 'Onest', system-ui, sans-serif;
+}
+
+/* Arrowlink */
+.arrowlink {
+  font-family: 'Onest', system-ui, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+}
+
+/* Lesson Japanese */
+.les h3 em {
+  font-family: 'Noto JP', 'Onest', sans-serif;
+  letter-spacing: 0.24em;
+}
+
+/* Card Japanese */
+.card-lab .jp {
+  font-family: 'Noto JP', 'Onest', sans-serif;
+  letter-spacing: 0.3em;
+}
